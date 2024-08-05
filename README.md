@@ -1,2 +1,5 @@
 # Time Series Experiments
- This reposeitory contain all the material that I have learned for time series
+
+##### SMA.ipynb
+
+This notebook visualizes the stock returns of different companies such as Google, Apple, IBM, etc. It includes visualizations of moving averages and stock returns.
