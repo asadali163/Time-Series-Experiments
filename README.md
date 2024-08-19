@@ -37,4 +37,30 @@ This notebook explores the VARMA model, a variant of ARIMA that works with two o
 ### ARIMA (Econometrics).ipynb
 This notebook uses an econometrics dataset to perform forecasting with the ARIMA model.
 
+### StockPrices (ML).ipynb\
+This notebook utilizes Machine Learning methods to forecast future stock prices, specifically employing:
+- Support Vector Regressor (SVR)
+- Random Forest Regressor (RFR)
+- Gaussian Process Regressor (GPR)
 
+### Airline (ML) -No Differencing.ipynb
+This notebook uses airline data to forecast future values, trends, and seasonality. Unlike previous statistical methods that involved differencing the data to achieve stationarity, this notebook employs non-stationary data and applies machine learning methods to evaluate their performance against traditional methods without differencing:
+- Forecasts future values, trends, and seasonality in airline data.
+- Uses non-stationary data without differencing.
+- Evaluates machine learning methods against traditional methods.
+
+### ML (Stock Prices Stationary).ipynb
+This notebook uses the stock data and applies the same machine learning methods, but with stationary data. The results show improvement compared to the non-differenced data:
+- Applies machine learning methods to stationary airline passenger data.
+- Compares results with non-stationary data, showing improved accuracy.
+
+### ML (Stock Prices Stationary).ipynb
+This notebook uses the same airline passenger data and applies the same machine learning methods, but with stationary data. The results show improvement compared to the non-differenced data:
+- Applies machine learning methods to stationary airline passenger data.
+- Compares results with non-stationary data, showing improved accuracy.
+
+### ML (Sales Data Champange).ipynb
+This notebook uses the Champagne dataset to forecast trends, seasonality, and future values. It utilizes machine learning methods for forecasting, including SVR, Linear Regressor, and RFR. The notebook covers:
+- One-step forecast.
+- Multi-step forecast.
+- Multi-step multi-output forecast.
