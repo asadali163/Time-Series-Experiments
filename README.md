@@ -64,3 +64,12 @@ This notebook uses the Champagne dataset to forecast trends, seasonality, and fu
 - One-step forecast.
 - Multi-step forecast.
 - Multi-step multi-output forecast.
+
+### ANN_for_airline_data.ipynb
+This notebook uses airline passenger data and applies an Artificial Neural Network (ANN) with a simple Dense layer for forecasting.
+
+### CNN_Airline.ipynb
+This notebook uses the same airline data but applies a Convolutional Neural Network (CNN) for forecasting. It includes:
+- 1-step forecast.
+- Multi-step forecast.
+- Multi-step multi-output forecast.
