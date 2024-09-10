@@ -73,3 +73,27 @@ This notebook uses the same airline data but applies a Convolutional Neural Netw
 - 1-step forecast.
 - Multi-step forecast.
 - Multi-step multi-output forecast.
+
+  ### ANN_Human_Activity_Recognition.ipynb
+This notebook focuses on human activity recognition using Artificial Neural Networks (ANN). It includes:
+- Utilizing simple ANN Dense layers to model and predict human activities based on sensor data.
+- Performing forecasting from both raw time series data and engineered features provided by experts.
+- Achieving an initial accuracy of 93% and comparing the results with traditional machine learning techniques like Linear Regression, Support Vector Classifier (SVC), and Random Forest.
+- Combining both time series and featured data into an extensive ANN model, which improves the prediction accuracy to 96%.
+- Demonstrating the effectiveness of integrating multiple data sources and neural network architectures to enhance model performance.
+
+### GRU_and_LSTM_(for time series).ipynb
+This notebook applies GRU (Gated Recurrent Units) and LSTM (Long Short-Term Memory) models to the airline passengers dataset for time series forecasting. It includes:
+- 1-step forecast, multi-step forecast, and multi-step multi-output forecast.
+- Effectively identifies trends within the dataset.
+- Delivers strong forecasting accuracy for predicting future values.
+
+### Human_Activity_Recognition_LSTM.ipynb
+This notebook utilizes the Human Activity Recognition dataset to forecast human activities using the LSTM (Long Short-Term Memory) method. It includes:
+- Achieved 93% accuracy on raw time series data.
+- Achieved 95% accuracy on derived feature data.
+- Demonstrates the effectiveness of LSTM in capturing temporal dependencies for improved activity recognition.
+
+### GARCH.ipynb
+This notebook focuses on forecasting stock prices using the GARCH (Generalized Autoregressive Conditional Heteroskedasticity) technique. Stock prices often follow a random walk, making prediction challenging, but GARCH helps in modeling and forecasting volatility for better predictions.
+
